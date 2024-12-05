@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  max-width: 100px;
+}
+.logo img {
+  width: 100%;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+}
+.header {
+  height: 124px;
+}
+.header-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+}
+.header-controls {
+}
+.main {
+}
+.footer {
+  height: 156px;
+}
+.footer-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo {
+}
+.footer-nav {
+}
+.footer-social {
+}
