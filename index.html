@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./scripts/index.js" defer></script>
     <title>Delivery Food</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
                 <img src="./img/icons/user.png" alt="user" />
                 Войти
               </button>
-              <button class="btn btn-outline">
+              <button class="btn btn-outline" id="cart-button">
                 <img src="./img/icons/cart.png" alt="cart" />
                 Корзина
               </button>
@@ -52,7 +53,7 @@
                 placeholder="Поиск блюд и ресторанов"
               />
             </div>
-            <div class="products-wrapper">
+            <div class="products-wrapper" id="rests-container">
               <a href="./goods.html" class="products-product">
                 <div class="products-product__image">
                   <img src="./img/rests/01.jpg" alt="rest-1" />
